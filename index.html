@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.green.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="menu-desktop">
+                        <div class="logo">
+                            <a href="#">
+                                <img src="img/logo.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="catalog-menu">
+                            <button class="btn btn-warning"><img class="catalog-menu-img" src="img/menu.svg" alt="">
+                                Каталог</button>
+                        </div>
+                        <div class="search-menu">
+                            <input type="text" class="form-control" placeholder="Поиск по товарам">
+                            <button class="btn btn-warning btn-search"><img src="img/search.svg" alt=""></button>
+                        </div>
+                        <div class="btn-group-menu">
+                            <button class="btn btn-mnogogrannik" data-bs-toggle="modal"
+                                data-bs-target="#modal-auth"><img src="img/user.svg" alt=""></button>
+                            <button class="btn btn-mnogogrannik"><img src="img/heart.svg" alt=""></button>
+                            <button class="btn btn-mnogogrannik"><img src="img/cart.svg" alt=""></button>
+                        </div>
+                    </div>
+                    <!-- <div class="menu-1024">
+                        <div class="d-flex justify-content-between mb-3">
+                            <div class="logo">
+                                <a href="#">
+                                    <img src="img/logo.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="btn-group-menu">
+                                <button class="btn btn-mnogogrannik" data-bs-toggle="modal"
+                                    data-bs-target="#modal-auth"><img src="img/user.svg" alt=""></button>
+                                <button class="btn btn-mnogogrannik"><img src="img/heart.svg" alt=""></button>
+                                <button class="btn btn-mnogogrannik"><img src="img/cart.svg" alt=""></button>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <div class="catalog-menu me-3">
+                                <button class="btn btn-warning"><img class="catalog-menu-img" src="img/menu.svg" alt="">
+                                    Каталог</button>
+                            </div>
+                            <div class="search-menu">
+                                <input type="text" class="form-control" placeholder="Поиск по товарам">
+                                <button class="btn btn-warning btn-search"><img src="img/search.svg" alt=""></button>
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class="menu-768">
+                        <div class="d-flex justify-content-between mb-3 w-100 align-items-center mt-3">
+                            <div class="logo">
+                                <a href="#">
+                                    <img src="img/logo.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="btn-group-menu">
+                                <button class="btn btn-mnogogrannik" data-bs-toggle="modal"
+                                    data-bs-target="#modal-auth"><img src="img/user.svg" alt=""></button>
+                                <button class="btn btn-mnogogrannik"><img src="img/heart.svg" alt=""></button>
+                                <button class="btn btn-mnogogrannik"><img src="img/cart.svg" alt=""></button>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between w-100 mb-3">
+                            <div class="catalog-menu me-3">
+                                <button class="btn btn-warning"><img class="catalog-menu-img" src="img/menu.svg" alt="">
+                                    Каталог</button>
+                            </div>
+                            <div class="search-menu">
+                                <input type="text" class="form-control" placeholder="Поиск по товарам">
+                                <button class="btn btn-warning btn-search"><img src="img/search.svg" alt=""></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-600">
+                        <div class="logo">
+                            <a href="#">
+                                <img src="img/logo.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="d-flex">
+                            <button class="btn btn-mnogogrannik" id="show-menu"><img src="img/menu-768.svg" alt=""></button>
+                            <button class="btn btn-mnogogrannik"><img src="img/cart.svg" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="mobile-modal-menu">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <div class="logo">
+                <a href="#">
+                    <img src="img/logo.svg" alt="">
+                </a>
+            </div>
+            <img src="img/clouse.svg" alt="" id="close-menu">
+        </div>
+        <div class="search-menu mt-3 mb-3">
+            <input type="text" class="form-control" placeholder="Поиск по товарам">
+            <button class="btn btn-warning btn-search"><img src="img/search.svg" alt=""></button>
+        </div>
+        <div class="list-link-mobile">
+            <a href="#"><img src="img/catalog.svg" alt="">Каталог</a>
+            <a href="#"><img src="img/heart-black.svg" alt="">Избранное</a>
+            <a href="#"><img src="img/cart.svg" alt="">Корзина</a>
+            <a href="#"><img src="img/user-mobile.svg" alt="">Личный кабинет</a>
+            <a href="#"><img src="img/myzakaz.svg" alt="">Мои заказы</a>
+            <a href="#"><img src="img/complect-black.svg" alt="">Настройки</a>
+            <a href="#"><img src="img/logout.svg" alt="">Выйти</a>
+        </div>
+    </div>
+    <main>
+        <div class="container-fluid mt-3">
+            <div class="row">
+                <div class="col-12">
+                    <div class="owl-carousel owl-theme" id="catalog-mp">
+                        <div class="item-category">
+                            <a href="#" class="title-catalog">Обработка резьбы</a>
+                            <span class="count-product-item">324 товара</span>
+                            <a href="#" class="link-catalog">
+                                <button class="btn btn-white-mnogogrannik"></button>
+                            </a>
+                            <img class="img-catalog" src="img/catalog-1.svg" alt="">
+                        </div>
+                        <div class="item-category">
+                            <a href="#" class="title-catalog">Точение</a>
+                            <span class="count-product-item">324 товара</span>
+                            <a href="#" class="link-catalog">
+                                <button class="btn btn-white-mnogogrannik"></button>
+                            </a>
+                            <img class="img-catalog" src="img/catalog-2.svg" alt="">
+                        </div>
+                        <div class="item-category">
+                            <a href="#" class="title-catalog">Сверление</a>
+                            <span class="count-product-item">324 товара</span>
+                            <a href="#" class="link-catalog">
+                                <button class="btn btn-white-mnogogrannik"></button>
+                            </a>
+                            <img class="img-catalog" src="img/catalog-3.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="catalog-mp-mobile">
+                        <div class="item-category">
+                            <a href="#" class="title-catalog">Обработка резьбы</a>
+                            <span class="count-product-item">324 товара</span>
+                            <a href="#" class="link-catalog">
+                                <button class="btn btn-white-mnogogrannik"></button>
+                            </a>
+                            <img class="img-catalog" src="img/catalog-1.svg" alt="">
+                        </div>
+                        <div class="item-category">
+                            <a href="#" class="title-catalog">Точение</a>
+                            <span class="count-product-item">324 товара</span>
+                            <a href="#" class="link-catalog">
+                                <button class="btn btn-white-mnogogrannik"></button>
+                            </a>
+                            <img class="img-catalog" src="img/catalog-2.svg" alt="">
+                        </div>
+                        <div class="item-category">
+                            <a href="#" class="title-catalog">Сверление</a>
+                            <span class="count-product-item">324 товара</span>
+                            <a href="#" class="link-catalog">
+                                <button class="btn btn-white-mnogogrannik"></button>
+                            </a>
+                            <img class="img-catalog" src="img/catalog-3.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid mt-5">
+            <div class="row">
+                <div class="col-12">
+                    <h3>Мы рекомендуем</h3>
+                    <div class="recomend-block">
+                        <div class="left-recomend">
+                            <div class="top-left-recomend">
+                                <div class="grid-1">
+                                    <div class="item-recomend">
+                                        <div class="top-item-card">
+                                            <span class="tag">Новинка</span>
+                                            <span class="izbrannoe"><img src="img/hearf-card.svg" alt=""></span>
+                                        </div>
+                                        <img class="card-img" src="img/catalog-4.svg" alt="">
+                                        <a href="#" class="title-card">PALBIT TurboMill 34190 — Фрезерование TurboMill
+                                            34</a>
+                                        <div class="bottom-item-card">
+                                            <div class="left-bottom-item-card">
+                                                <div class="ostatok">Осталось</div>
+                                                <div class="count-ostatok">265 шт.</div>
+                                            </div>
+                                            <div class="right-bottom-item-card">
+                                                <a href="#">
+                                                    <button class="btn btn-warning-mnogogrannik"></button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item-recomend">
+                                        <div class="top-item-card">
+                                            <span class="tag">Новинка</span>
+                                            <span class="izbrannoe"><img src="img/hearf-card.svg" alt=""></span>
+                                        </div>
+                                        <img class="card-img" src="img/catalog-4.svg" alt="">
+                                        <a href="#" class="title-card">PALBIT TurboMill 34190 — Фрезерование TurboMill
+                                            34</a>
+                                        <div class="bottom-item-card">
+                                            <div class="left-bottom-item-card">
+                                                <div class="ostatok">Осталось</div>
+                                                <div class="count-ostatok">265 шт.</div>
+                                            </div>
+                                            <div class="right-bottom-item-card">
+                                                <a href="#">
+                                                    <button class="btn btn-warning-mnogogrannik"></button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-2">
+                                    <div class="item-recomend item-category">
+                                        <a href="#" class="title-catalog">Автомобили и двигатели</a>
+                                        <a href="#" class="link-catalog">
+                                            <button class="btn btn-white-mnogogrannik"></button>
+                                        </a>
+                                        <img class="img-catalog" src="img/motor.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="center-left-recomend">
+                                <div class="item-recomend">
+                                    <div class="top-item-card">
+                                        <span class="tag">Новинка</span>
+                                        <span class="izbrannoe"><img src="img/hearf-card.svg" alt=""></span>
+                                    </div>
+                                    <img class="card-img" src="img/catalog-4.svg" alt="">
+                                    <a href="#" class="title-card">PALBIT TurboMill 34190 — Фрезерование TurboMill
+                                        34</a>
+                                    <div class="bottom-item-card">
+                                        <div class="left-bottom-item-card">
+                                            <div class="ostatok">Осталось</div>
+                                            <div class="count-ostatok">265 шт.</div>
+                                        </div>
+                                        <div class="right-bottom-item-card">
+                                            <a href="#">
+                                                <button class="btn btn-warning-mnogogrannik"></button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-recomend">
+                                    <div class="top-item-card">
+                                        <span class="tag">Новинка</span>
+                                        <span class="izbrannoe"><img src="img/hearf-card.svg" alt=""></span>
+                                    </div>
+                                    <img class="card-img" src="img/catalog-4.svg" alt="">
+                                    <a href="#" class="title-card">PALBIT TurboMill 34190 — Фрезерование TurboMill
+                                        34</a>
+                                    <div class="bottom-item-card">
+                                        <div class="left-bottom-item-card">
+                                            <div class="ostatok">Осталось</div>
+                                            <div class="count-ostatok">265 шт.</div>
+                                        </div>
+                                        <div class="right-bottom-item-card">
+                                            <a href="#">
+                                                <button class="btn btn-warning-mnogogrannik"></button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-recomend">
+                            <div class="item-recomend item-category">
+                                <a href="#" class="title-catalog">Железнодорожная отрасль</a>
+                                <a href="#" class="link-catalog">
+                                    <button class="btn btn-white-mnogogrannik"></button>
+                                </a>
+                                <img class="img-catalog" src="img/poezd.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid mt-5">
+            <div class="row">
+                <div class="col-12">
+                    <h3>Вы недавно смотрели</h3>
+                    <div class="owl-carousel owl-theme mb-5" id="views">
+                        <div class="item-recomend">
+                            <div class="border-card">
+                                <div class="top-item-card">
+                                    <span class="tag">Новинка</span>
+                                    <span class="izbrannoe"><img src="img/hearf-card.svg" alt=""></span>
+                                </div>
+                                <img class="card-img" src="img/catalog-4.svg" alt="">
+                            </div>
+                            <a href="#" class="title-card">PALBIT TurboMill 34190 — Фрезерование TurboMill
+                                34</a>
+                            <div class="bottom-item-card">
+                                <div class="left-bottom-item-card">
+                                    <div class="ostatok">Осталось</div>
+                                    <div class="count-ostatok">265 шт.</div>
+                                </div>
+                                <div class="right-bottom-item-card">
+                                    <a href="#">
+                                        <button class="btn btn-warning-mnogogrannik"></button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-recomend">
+                            <div class="border-card">
+                                <div class="top-item-card">
+                                    <span class="tag">Новинка</span>
+                                    <span class="izbrannoe"><img src="img/heart-active.svg" alt=""></span>
+                                </div>
+                                <img class="card-img" src="img/catalog-4.svg" alt="">
+                            </div>
+                            <a href="#" class="title-card">PALBIT TurboMill 34190 — Фрезерование TurboMill
+                                34</a>
+                            <div class="bottom-item-card">
+                                <div class="left-bottom-item-card">
+                                    <div class="ostatok">Осталось</div>
+                                    <div class="count-ostatok">265 шт.</div>
+                                </div>
+                                <div class="right-bottom-item-card">
+                                    <a href="#">
+                                        <button class="btn btn-warning-mnogogrannik hover"></button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid mt-5">
+            <div class="row">
+                <div class="col-12">
+                    <div class="mp-callback-block">
+                        <div class="left-conent-callback">
+                            <p class="title-callback-mp">Вы можете помочь нам стать ещё лучше</p>
+                            <p class="text-callback">Если у вас есть пожелания по нашей работе или предложения по
+                                улучшению сервиса, то вы можете написать нам об этом.</p>
+                        </div>
+                        <div class="right-content-callback">
+                            <button type="button" class="btn btn-warning btn-lg" data-bs-toggle="modal"
+                                data-bs-target="#modalId">Написать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer">
+                        <div class="left-footer">
+                            <div class="logo-footer">
+                                <a href="#">
+                                    <img src="img/logo-white.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="search-footer">
+                                <input type="text" class="form-control" placeholder="Email">
+                                <button class="btn btn-warning btn-search"><img src="img/form-send.svg" alt=""></button>
+                                <div class="send-messages-footer">Подпишитесь на рассылку. Иногда мы будем присылать
+                                    информацию о новых постплениях!</div>
+                            </div>
+                        </div>
+                        <div class="menu-footer">
+                            <div>
+                                <a href="#">Обработка резьбы</a>
+                                <a href="#">Точение</a>
+                                <a href="#">Сверление</a>
+                                <a href="#">Оснастка</a>
+                                <a href="#">Фрезерование</a>
+                            </div>
+                            <div>
+                                <a href="#">Новинки</a>
+                                <a href="#">Новости</a>
+                                <a href="#">Сотрудничество</a>
+                                <a href="#">Контакты</a>
+                            </div>
+                        </div>
+                        <div class="right-footer">
+                            <a class="phone-footer" href="tel:+7 495 560 48 48">+7 495 560 48 48</a>
+                            <div class="contact-footer">
+                                <div class="svg-border">
+                                    <img src="img/email.svg" alt="">
+                                </div>
+                                <a href="mailto:info@intehnika.ru">info@intehnika.ru</a>
+                            </div>
+                            <div class="contact-footer">
+                                <div class="svg-border">
+                                    <img src="img/address.svg" alt="">
+                                </div>
+                                <span>129085, Москва, ул. Годовикова, д.9, стр. 25</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between pt-5 footer-bottom">
+                        <span>Интехника, 2022</span>
+                        <span>Дизайн — Crauch</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="modal fade" id="modalId" tabindex="-1" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h5 class="modal-title">Помогите нам стать лучше</h5>
+                    <div class="modal-text">У вас есть пожелания или замечания по работе сервиса? — можете оставить их
+                        здесь, заполнив форму обратной связи.</div>
+                    <div class="d-flex mb-3 mt-3">
+                        <input type="text" class="form-control me-3" placeholder="Ваше имя">
+                        <input type="text" class="form-control" placeholder="Ваша почта">
+                    </div>
+                    <textarea class="form-control" rows="5" placeholder="Ваши пожелания"></textarea>
+                    <button class="btn btn-warning w-100 mt-3">Отправить</button>
+                    <div class="send-form mt-3">Нажимая на кнопку вы соглашаетесь с Пользовательским соглашением и
+                        Условиями обработки персональных данных</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal-auth" tabindex="-1" role="dialog" aria-labelledby="modalTitleId"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h5 class="modal-title">Вход</h5>
+                    <div class="mb-3 mt-3">
+                        <input type="text" class="form-control" placeholder="Введите логин">
+                    </div>
+                    <div class="mb-3 mt-3">
+                        <input type="text" class="form-control" placeholder="Введите пароль">
+                    </div>
+                    <div class="text-center">
+                        <a href="#">Забыли пароль?</a>
+                    </div>
+                    <button class="btn btn-warning w-100 mt-3 mb-3">Войти</button>
+                    <div class="text-center">
+                        <a href="#" id="open-reg-modal" data-bs-toggle="modal"
+                            data-bs-target="#modal-reg">Зарегистрироваться</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal-reg" tabindex="-1" role="dialog" aria-labelledby="modalTitleId"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="step-1">
+                        <h5 class="modal-title">Регистрация</h5>
+                        <div class="text-center"><span class="step-text">Шаг 1</span> из 2</div>
+                        <div class="mb-3 mt-3 reg-div">
+                            <label for="">ФИО</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="mb-3 mt-3 reg-div">
+                            <label for="">Телефон</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="mb-3 mt-3 reg-div">
+                            <label for="">E-mail</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <button class="btn btn-warning w-100 mt-3 mb-3" id="next-step">Далее</button>
+                        <div class="send-form mt-3 mb-3">Нажимая на кнопку вы соглашаетесь с Пользовательским
+                            соглашением и
+                            Условиями обработки персональных данных</div>
+                        <div class="text-center mb-3">
+                            <a href="#">Продолжить без регистрации</a>
+                        </div>
+                        <div class="text-center">
+                            <span>У вас есть аккаунт? </span><a href="#">Войти</a>
+                        </div>
+                    </div>
+                    <div class="step-2">
+                        <h5 class="modal-title">Регистрация</h5>
+                        <div class="text-center"><span class="step-text">Шаг 2</span> из 2</div>
+                        <div class="mb-3 mt-3 reg-div">
+                            <label for="">Организация</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="mb-3 mt-3 reg-div">
+                            <label for="">ИНН</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="mb-3 mt-3 reg-div">
+                            <label for="">Должность</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <button class="btn btn-warning w-100 mt-3 mb-3" id="next-step-2">Далее</button>
+                        <div class="send-form mt-3 mb-3">Нажимая на кнопку вы соглашаетесь с Пользовательским
+                            соглашением и
+                            Условиями обработки персональных данных</div>
+                        <div class="text-center mb-3">
+                            <a href="#">Продолжить без регистрации</a>
+                        </div>
+                        <div class="text-center">
+                            <span>У вас есть аккаунт? </span><a href="#">Войти</a>
+                        </div>
+                    </div>
+                    <div class="step-3 text-center">
+                        <img src="img/alert.svg" alt="">
+                        <h5 class="modal-title">Регистрация прошла успешно</h5>
+                        <div class="send-form mt-3 mb-3">На указанный e-mail выслан ваш пароль. Для активации вашей
+                            учётной записи, пожалуйста, пройдите по ссылке в письме.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
